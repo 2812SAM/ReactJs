@@ -1,2 +1,16 @@
 hey this is React course.
 To Make a new React project go to Vite website and click GetStarted. there you will get a cli command to make a new vite project. copy it and paste in in your terminal.
+
+
+Hooks(
+    1. UseState() ----> to change the variables simultaneously at diff places.
+    syntax---> const[var , setVar] = useState(value);
+
+    2. UseCallback() ----> If a func is used again and again by the trigger of some few dependencies the use this hook . it basically caches the entire function which help in optimisation.
+    syntax-->useCallback(fn , dependencies);
+
+    3. UseEffect() ---> use to sync with external code.
+    syntax -- > useEffect( ()=>{} , [] )   it takes callback function and a dependency array
+
+    4. useRef() ---> for reference
+)
