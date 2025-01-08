@@ -10,4 +10,5 @@ function useCurrencyInfo(currency){
     return data
 }
 export default useCurrencyInfo;
-// the response which we got after json conversion into an obj is set in Data using setData(). and since the recieved obj is having manu keys but we need only the currency key so use setdata(res[currency])
+// the response which we got after json conversion into an obj is set in Data using setData().
+//  and since the recieved obj is having manu keys but we need only the currency key so use setdata(res[currency])
